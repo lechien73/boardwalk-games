@@ -1,0 +1,9 @@
+#texture {
+    background-image: url(../images/background-texture.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#navbar .logo {
+    width: 30px;
+}
