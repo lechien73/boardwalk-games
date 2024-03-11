@@ -124,7 +124,28 @@ h2 {
 }
 
 #contact .sub-heading-color {
+    color: var(--tertiary-color);
+}
+
+#contact .table-dark *{
+    background-color: transparent;
+}
+
+#contact i {
+    color: var(--tertiary-color);
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+
+#contact .social-icons a>i {
     color: var(--highlight-color);
+    font-size: 1.9rem;
+    margin-right: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+#contact .social-icons a>i:hover {
+    color: var(--secondary-color);
 }
 
 /* medium screen sizes and up */
