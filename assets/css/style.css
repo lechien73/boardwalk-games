@@ -41,14 +41,15 @@ h1, h2, h3 {
 
 #navbar .btn {
     border: 2px solid var(--highlight-color);
-    padding: 5px 20px;
     background-color: var(--highlight-color);
     color: white;
+    padding: 5px 20px;
 }
 
 #navbar .btn:hover {
-    color: var(--highlight-color);
-    background-color: white;
+    color: white;
+    background-color: var(--secondary-color);
+    border: 2px solid var(--secondary-color);
 }
 
 #header .btn {
@@ -66,7 +67,6 @@ h1, h2, h3 {
 
 #navbar {
     background-color: var(--primary-color);
-    color: var(--secondary-color);
 }
 
 #navbar .logo {
@@ -74,10 +74,6 @@ h1, h2, h3 {
 }
 
 /* header */
-
-#header {
-    padding: 20px;
-}
 
 #header .lead {
     font-family: var(--secondary-font);
