@@ -113,3 +113,19 @@ h2 {
 #contact .sub-heading-color {
     color: var(--highlight-color);
 }
+
+/* medium screen sizes and up */
+@media (min-height: 768px) {
+    /* make all service cards the same height for consistency */
+    #services .card {
+        min-height: 360px;
+    }
+}
+
+/* xl screen sizes */
+@media (min-height: 1400px) {
+    /* make all service cards the same height for consistency */
+    #services .card {
+        min-height: 350px;
+    }
+}
