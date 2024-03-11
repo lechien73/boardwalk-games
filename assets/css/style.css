@@ -28,13 +28,19 @@ body {
 
 h1, h2, h3 {
     font-family: var(--secondary-font);
-    text-transform: uppercase;
     color: var(--primary-color);
 }
 
-.content-logo {
-    width: 40px;
-    margin: 5px;
+h1, h2 {
+    text-transform: uppercase;
+}
+
+h2 {
+    margin: 1.5rem;
+}
+
+.sub-heading-color {
+    color: var(--highlight-color);
 }
 
 /* divider */
@@ -84,8 +90,14 @@ h1, h2, h3 {
 
 /* header */
 
-#header .lead {
+#header .display-6 {
     font-family: var(--secondary-font);
+}
+
+/* services */
+
+#services .card {
+    margin-bottom: 1.5rem;
 }
 
 /* footer / contact */
@@ -94,7 +106,10 @@ h1, h2, h3 {
     color: white;
 }
 
-#contact h2,
-#contact h3 {
+#contact h2 {
     color: white;
+}
+
+#contact .sub-heading-color {
+    color: var(--highlight-color);
 }
