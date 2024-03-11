@@ -14,7 +14,7 @@
 :root {
     --primary-color: #4D3129; /* dark brown */
     --secondary-color: #AA9581; /* light brown */
-    --tertiary-color: #f5f5f5;
+    --tertiary-color: #B38758; /* warm brown */
     --highlight-color: #4D7EA8; /* blue */
     --primary-font: 'Inter', sans-serif;
     --secondary-font: 'Macondo', cursive;
@@ -35,6 +35,15 @@ h1, h2, h3 {
 .content-logo {
     width: 40px;
     margin: 5px;
+}
+
+/* divider */
+.divider {
+    border: none;
+    border-bottom: 3px solid var(--tertiary-color);
+    width: 30%;
+    margin: 0 auto;
+    opacity: 0.8;
 }
 
 /* buttons */
@@ -77,4 +86,15 @@ h1, h2, h3 {
 
 #header .lead {
     font-family: var(--secondary-font);
+}
+
+/* footer / contact */
+#contact {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+#contact h2,
+#contact h3 {
+    color: white;
 }
