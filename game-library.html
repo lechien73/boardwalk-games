@@ -76,14 +76,6 @@
               <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
-          <button
-            type="button"
-            class="btn"
-            data-bs-toggle="modal"
-            data-bs-target="#exampleModal"
-          >
-            Reserve
-          </button>
         </div>
       </div>
     </nav>
@@ -102,14 +94,6 @@
             classics to the latest sensations, our shelves are packed with games
             waiting to be discovered.
           </p>
-          <button
-            type="button"
-            class="btn my-4"
-            data-bs-toggle="modal"
-            data-bs-target="#exampleModal"
-          >
-            Reserve
-          </button>
         </div>
         <div class="col-12 col-xl-6">
           <!-- carousel notes:
@@ -380,16 +364,6 @@
               </div>
             </div>
           </div>
-          <div class="col-12 text-center">
-            <button
-              type="button"
-              class="btn my-4"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-            >
-              Reserve
-            </button>
-          </div>
         </div>
       </section>
     </main>
@@ -461,74 +435,6 @@
         </div>
       </div>
     </footer>
-
-    <!-- Modal -->
-    <div
-      class="modal fade"
-      id="exampleModal"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1 class="modal-title fs-5" id="exampleModalLabel">
-              Booking inquiry
-            </h1>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">
-            <p>
-              Thank you for choosing to reserve a spot at Boardwalk Games!
-              Please fill out the form below with your details and preferred
-              event. A member of our team will call you back as soon as possible
-              to confirm your booking and answer any questions you may have.
-            </p>
-            <form>
-              <div class="mb-3">
-                <label for="name" class="form-label">Name</label>
-                <input type="text" class="form-control" id="name" required />
-              </div>
-              <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" required />
-              </div>
-              <div class="mb-3">
-                <label for="phone" class="form-label">Phone number</label>
-                <input type="tel" class="form-control" id="phone" required />
-              </div>
-              <div class="mb-3">
-                <label for="event-type" class="form-label">Event type</label>
-                <select
-                  id="event-type"
-                  class="form-select"
-                  aria-label="Default select example"
-                >
-                  <option selected>Select</option>
-                  <option value="regular-play">Reserve a table</option>
-                  <option value="dnd">Dungeons & Dragons</option>
-                  <option value="retro-night">Retro Game Night</option>
-                  <option value="tournament">Tournament</option>
-                </select>
-              </div>
-
-              <div class="mb-3">
-                <label for="message" class="form-label">Message</label>
-                <textarea class="form-control" id="message" rows="6"></textarea>
-              </div>
-
-              <button type="submit" class="btn btn-primary">Send</button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
 
     <!-- font awesome 6 -->
     <!-- IMPORTANT!! This is my personal kit code, must update with a CI code for the teaching materials. -->

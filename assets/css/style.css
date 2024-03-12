@@ -53,29 +53,17 @@ h2 {
 }
 
 /* buttons */
-
-#navbar .btn {
-    border: 2px solid var(--highlight-color);
-    background-color: var(--highlight-color);
-    color: white;
-    padding: 5px 20px;
-}
-
-#navbar .btn:hover {
-    color: white;
-    background-color: var(--secondary-color);
-    border: 2px solid var(--secondary-color);
-}
-
 #header .btn,
-#events .btn {
+#events .btn,
+#fav-games .btn {
     border: 3px solid var(--highlight-color);
     padding: 7px 25px;
     color: var(--highlight-color);
 }
 
 #header .btn:hover,
-#events .btn:hover {
+#events .btn:hover,
+#fav-games .btn:hover {
     background-color: var(--highlight-color);
     color: white;
 }
