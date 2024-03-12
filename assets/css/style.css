@@ -58,7 +58,8 @@ h2 {
 /* buttons */
 #header .btn,
 #events .btn,
-#fav-games .btn {
+#fav-games .btn,
+#reserve-game-form .btn {
   border: 3px solid var(--highlight-color);
   padding: 7px 25px;
   color: var(--highlight-color);
@@ -66,7 +67,8 @@ h2 {
 
 #header .btn:hover,
 #events .btn:hover,
-#fav-games .btn:hover {
+#fav-games .btn:hover,
+#reserve-game-form .btn:hover {
   background-color: var(--highlight-color);
   color: white;
 }
