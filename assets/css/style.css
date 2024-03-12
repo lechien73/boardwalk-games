@@ -104,6 +104,14 @@ h2 {
 
 /* events */
 
+#events .table {
+    /* events table font size small enough that 
+    the table doesn't overflow on xs screens. 
+    Size set back to 1rem in a media query 
+    for sm screens and up */
+    font-size: 0.8rem;
+}
+
 .student-discount {
     background-color: var(--tertiary-color);
     color: white;
@@ -146,6 +154,14 @@ h2 {
 
 #contact .social-icons a>i:hover {
     color: var(--highlight-color);
+}
+
+/* small screens and up */
+@media (min-width: 576px) {
+    /* increase font size in events table when screen size is large enough */
+    #events .table {
+        font-size: 1rem;
+    }
 }
 
 /* medium screen sizes and up */
