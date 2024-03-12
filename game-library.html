@@ -408,8 +408,10 @@
                 <label for="game-selection" class="form-label"
                   >Select game</label
                 >
-                <select id="game-selection" class="form-select">
-                  <option selected>Select game</option>
+                <select id="game-selection" class="form-select" required>
+                  <!-- value="" makes this option a placeholder and won't be accepted as a valid selection, 
+                    ensuring the required attribute on the <select> element works -->
+                  <option value="" selected>Select game</option> 
                   <option value="galaxy-pioneers">Galaxy Pioneers</option>
                   <option value="mystic-woods">Mystic Woods</option>
                   <option value="captains-gambit">Captain's Gambit</option>
