@@ -132,7 +132,7 @@ h2 {
 }
 
 #contact .sub-heading-color {
-    color: var(--tertiary-color);
+    color: var(--secondary-color);
 }
 
 #contact .table-dark *{
