@@ -494,9 +494,11 @@
                 <select
                   id="event-type"
                   class="form-select"
-                  aria-label="Default select example"
+                  aria-label="Default select example" required
                 >
-                  <option selected>Select</option>
+                  <!-- value="" makes this option a placeholder and won't be accepted as a valid selection, 
+                    ensuring the required attribute on the <select> element works -->
+                  <option value="" selected>Select</option>
                   <option value="regular-play">Reserve a table</option>
                   <option value="dnd">Dungeons & Dragons</option>
                   <option value="retro-night">Retro Game Night</option>
