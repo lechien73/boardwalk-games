@@ -1,21 +1,12 @@
 /* google font import */
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Macondo&display=swap");
 
-/* color hex notes
-    #B38758 - warm brown
-    #4D3129 - dark brown
-    #D7D8D1 - light grey
-    #AA9581 - light brown
-    #F7F7EC - off white
-    #4D7EA8 - blue
-*/
-
 /* css variables */
 :root {
   --primary-color: #4d3129; /* dark brown */
   --secondary-color: #aa9581; /* light brown */
-  --tertiary-color: #b38758; /* warm brown */
-  --highlight-color: #4d7ea8; /* blue */
+  --tertiary-color: #97724b; /* warm brown */
+  --highlight-color: #416a8e; /* blue */
   --primary-font: "Inter", sans-serif;
   --secondary-font: "Macondo", cursive;
 }
