@@ -49,7 +49,8 @@ h2 {
 #events .btn,
 #fav-games .btn,
 #reserve-game-form .btn,
-#booking-form .btn {
+#booking-form .btn,
+#success .btn {
   border: 3px solid var(--highlight-color);
   padding: 7px 25px;
   color: var(--highlight-color);
@@ -59,7 +60,8 @@ h2 {
 #events .btn:hover,
 #fav-games .btn:hover,
 #reserve-game-form .btn:hover,
-#booking-form .btn:hover {
+#booking-form .btn:hover,
+#success .btn:hover {
   background-color: var(--highlight-color);
   color: white;
 }

@@ -389,36 +389,28 @@
           </p>
 
           <!-- reserve game form -->
-          <form>
+          <form action="success.html">
             <div class="row">
               <div class="col-12 col-lg-4 mb-3">
                 <label for="full-name" class="form-label">Full name</label>
-                <input
-                  id="full-name"
+                <input id="full-name"
                   type="text"
                   class="form-control"
-                  required
-                />
+                  required />
               </div>
               <div class="col-12 col-lg-4 mb-3">
-                <label for="phone-number" class="form-label"
-                  >Phone number</label
-                >
-                <input
-                  id="phone-number"
-                  type="tel"
+                <label for="phone-number" class="form-label">Phone number</label>
+                <input id="phone-number"
+                  type="number"
                   class="form-control"
-                  required
-                />
+                  required/>
               </div>
               <div class="col-12 col-lg-4 mb-3">
                 <label for="email" class="form-label">Email address</label>
                 <input id="email" type="email" class="form-control" required />
               </div>
               <div class="col-12 col-lg-8 mb-3">
-                <label for="game-selection" class="form-label"
-                  >Select game</label
-                >
+                <label for="game-selection" class="form-label">Select game</label>
                 <select id="game-selection" class="form-select" required>
                   <!-- value="" makes this option a placeholder and won't be accepted as a valid selection, 
                     ensuring the required attribute on the <select> element works -->
