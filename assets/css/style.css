@@ -39,6 +39,8 @@ h2 {
 }
 
 .section {
+  /* padding pushes top of each section down so that the 
+  fixed navbar does not cover the section title */
   padding-top: 4rem;
 }
 

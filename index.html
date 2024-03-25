@@ -65,7 +65,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="index.html"
                 >Home</a
@@ -83,8 +83,10 @@
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
             </li>
+            <li class="nav-item">
+              <a href="booking.html" class="nav-link btn ms-3">Book now</a>
+            </li>
           </ul>
-          <a href="booking.html" class="btn">Book now</a>
         </div>
       </div>
     </nav>
@@ -379,18 +381,22 @@
           </div>
           <div class="col-12 col-md-6 col-xl-4">
             <h3 class="sub-heading-color">Contact info</h3>
+            <!-- business address in <address> element for semantic html -->
             <address>
-              <strong
-                ><i class="fa-solid fa-location-dot"></i> Boardwalk
-                Games</strong
-              ><br />
-              123 Boardwalk<br />
-              Boardwalk City, 12345<br />
+              <strong><i class="fa-solid fa-location-dot"></i>Boardwalk Games</strong>
+              <br/>
+              123 Boardwalk
+              <br/>
+              Boardwalk City, 12345
             </address>
             <p>
-              <i class="fa-solid fa-phone"></i> 01234 567890<br />
+              <i class="fa-solid fa-phone"></i> 01234 567890<br/>
               <i class="fa-regular fa-paper-plane"></i> info@boardwalk-games.co
             </p>
+            <!-- social media links as font awesome icones. 
+            The links go to the main social media platforms 
+            because specific pages/feeds for this fictional business don't exist. 
+            Every link opens in a new tab and has an aria-label for accessibility -->
             <div class="social-icons my-4">
               <a
                 href="https://www.instagram.com"
@@ -415,6 +421,8 @@
               ></a>
             </div>
           </div>
+
+          <!-- table of business opening times -->
           <div class="col-12 col-md-6 col-xl-4">
             <h3 class="sub-heading-color">Opening times</h3>
             <table class="table table-dark">
