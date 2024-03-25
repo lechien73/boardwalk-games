@@ -110,41 +110,52 @@
     <main>
       <!-- services section -->
       <section id="booking-form" class="container section">
-        <div class="row">
-          <div class="col-12">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-8">
             <form>
-              <div class="mb-3">
-                <label for="name" class="form-label">Name</label>
-                <input type="text" class="form-control" id="name" required />
-              </div>
-              <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" required />
-              </div>
-              <div class="mb-3">
-                <label for="phone" class="form-label">Phone number</label>
-                <input type="tel" class="form-control" id="phone" required />
-              </div>
-              <div class="mb-3">
-                <label for="event-type" class="form-label">Event type</label>
-                <select
-                  id="event-type"
-                  class="form-select"
-                  aria-label="Default select example" required
-                >
-                  <!-- value="" makes this option a placeholder and won't be accepted as a valid selection, 
+              <div class="row">
+                <div class="col-12 col-lg-6 mb-3">
+                  <label for="name" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="name" required />
+                </div>
+                <div class="col-12 col-lg-6 mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    required
+                  />
+                </div>
+                <div class="col-12 col-lg-6 mb-3">
+                  <label for="phone" class="form-label">Phone number</label>
+                  <input type="tel" class="form-control" id="phone" required />
+                </div>
+                <div class="col-12 col-lg-6 mb-3">
+                  <label for="event-type" class="form-label">Event type</label>
+                  <select
+                    id="event-type"
+                    class="form-select"
+                    aria-label="Default select example"
+                    required
+                  >
+                    <!-- value="" makes this option a placeholder and won't be accepted as a valid selection, 
                     ensuring the required attribute on the <select> element works -->
-                  <option value="" selected>Select</option>
-                  <option value="regular-play">Reserve a table</option>
-                  <option value="dnd">Dungeons & Dragons</option>
-                  <option value="retro-night">Retro Game Night</option>
-                  <option value="tournament">Tournament</option>
-                </select>
-              </div>
-
-              <div class="mb-3">
-                <label for="message" class="form-label">Message</label>
-                <textarea class="form-control" id="message" rows="6"></textarea>
+                    <option value="" selected>Select</option>
+                    <option value="regular-play">Reserve a table</option>
+                    <option value="dnd">Dungeons & Dragons</option>
+                    <option value="retro-night">Retro Game Night</option>
+                    <option value="tournament">Tournament</option>
+                  </select>
+                </div>
+                <div class="col-12 mb-3">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    rows="6"
+                  ></textarea>
+                </div>
               </div>
 
               <button type="submit" class="btn">Submit</button>

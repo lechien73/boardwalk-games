@@ -47,7 +47,7 @@ h2 {
 #events .btn,
 #fav-games .btn,
 #reserve-game-form .btn,
-#modal-submit-button {
+#booking-form .btn {
   border: 3px solid var(--highlight-color);
   padding: 7px 25px;
   color: var(--highlight-color);
@@ -57,7 +57,7 @@ h2 {
 #events .btn:hover,
 #fav-games .btn:hover,
 #reserve-game-form .btn:hover,
-#modal-submit-button:hover {
+#booking-form .btn:hover {
   background-color: var(--highlight-color);
   color: white;
 }
