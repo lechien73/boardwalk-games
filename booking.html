@@ -119,9 +119,15 @@
           <div class="col-12 col-md-8">
             <!-- action set on the form to provide users with feedback when the form has been submitted.
             We have not learned how to handle form data yet, so the form data is not actually sent anywhere for this project -->
-            <form action="success.html">
+            <form action="https://ci-postproxy.herokuapp.com" method="POST">
               <div class="row">
                 <div class="col-12 col-lg-6 mb-3">
+                  <!-- hidden input for ci-proxy to set the html file to show a success message -->
+                  <input
+                    type="hidden"
+                    name="x_success"
+                    value="success.html"
+                  />
                   <label for="name" class="form-label">Name</label>
                   <input
                     type="text"
