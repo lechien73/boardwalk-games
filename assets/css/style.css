@@ -38,13 +38,8 @@ h2 {
   color: var(--highlight-color);
 }
 
-/* divider */
-.divider {
-  border: none;
-  border-bottom: 3px solid var(--tertiary-color);
-  width: 30%;
-  margin: 0 auto;
-  opacity: 0.8;
+.section {
+  padding-top: 4rem;
 }
 
 /* buttons */
