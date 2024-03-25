@@ -62,6 +62,18 @@ h2 {
   color: white;
 }
 
+#navbar .btn {
+  border: 2px solid var(--highlight-color);
+  background-color: var(--highlight-color);
+  color: white;
+}
+
+#navbar .btn:hover {
+  color: white;
+  background-color: var(--secondary-color);
+  border: 2px solid var(--secondary-color);
+}
+
 /* navbar */
 
 #navbar {
